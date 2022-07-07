@@ -11,9 +11,10 @@
 </head>
 <body>
 <div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'London')">Rights</button>
-  <button class="tablinks" onclick="openCity(event, 'Paris')">War1</button>
-  <button class="tablinks" onclick="openCity(event, 'Tokyo')">War2</button>
+  <button class="tablinks" onclick="opentab(event,  'flag')">Flag</button>
+  <button class="tablinks" onclick="opentab(event, 'London')">Rights</button>
+  <button class="tablinks" onclick="opentab(event, 'Paris')">World War 1</button>
+  <button class="tablinks" onclick="opentab(event, 'Tokyo')">World War 2</button>
 </div>
 
   <h1>Canada in the 20th Century</h1>
@@ -23,16 +24,20 @@
 </div>
 
 <div id="Paris" class="tabcontent">
-  <h3>This is about the war1</h3>
+  <h3>This is about World War 1</h3>
   <p>It was a big, bad war.</p>
 </div>
 
+<div id="Flag" class="tabcontent">
+  <h3>The maple leaf flag</h3>
+  <p>It is the symbol of Canada</p>
+</div>
 <div id="Tokyo" class="tabcontent">
-  <h3>This is about the war2</h3>
+  <h3>This is about World War 2</h3>
   <p>It was another big, bad war.</p>
 </div>
  <script>
-function openCity(evt, cityName) {
+function opentab(evt, cityName) {
   // Declare all variables
   var i, tabcontent, tablinks;
 
