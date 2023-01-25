@@ -16,7 +16,7 @@ html {
   p {
     text-align: left;
     font-size: 1rem;
-    color: #007700
+    color: #55EE55
   }
 	header {
 	  text-align: center;
@@ -72,4 +72,19 @@ html {
 	div.centered {
 	  text-align: center;
 	}
+
+  .tablinks {
+    background-color: black;
+    color: white;
+    border: 2px solid #007700;
+    border-radius: 6px;
+    cursor:pointer;
+    padding:8px;
+
+  }
+  .tablinks:hover {
+    border: 2px solid #009900;
+  }
+
+
 
